@@ -40,11 +40,15 @@ This cmdlet supports the common parameters: Verbose, Debug, ErrorAction, ErrorVa
 
 -------------------------- EXAMPLE 1 --------------------------
 
-`PS C:>Copy-File -Path "$dirSupportFiles\MyApp.ini" -Destination "$envWindir\MyApp.ini"`
+```PowerShell
+PS C:>Copy-File -Path "$dirSupportFiles\MyApp.ini" -Destination "$envWindir\MyApp.ini"
+```
 
 -------------------------- EXAMPLE 2 --------------------------
 
-`PS C:>Copy-File -Path "$dirSupportFiles\\*.\*" -Destination "$envTemp\tempfiles"`
+```PowerShell
+PS C:>Copy-File -Path "$dirSupportFiles\\*.\*" -Destination "$envTemp\tempfiles"
+```
 
 Copy all of the files in a folder to a destination folder.
 
